@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VA Ar-Condicionados | Venda, instalação e manutenção</title>
+  <meta name="description" content="VA Ar-Condicionados: venda, instalação e manutenção de ar-condicionado split com atendimento direto. Mais de 400 instalações por ano. Peça seu orçamento pelo WhatsApp.">
+  <meta name="theme-color" content="#092E6E">
+  <meta property="og:title" content="VA Ar-Condicionados | Venda, instalação e manutenção">
+  <meta property="og:description" content="Conforto instalado na sua casa por quem entende de ar-condicionado. Peça seu orçamento pelo WhatsApp.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="preload" href="fonts/plus-jakarta-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<!-- Ícones e elementos reutilizáveis -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="g-unit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#DDEAF2"/>
+    </linearGradient>
+    <linearGradient id="g-room" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B6A88"/>
+      <stop offset="1" stop-color="#092E6E"/>
+    </linearGradient>
+    <linearGradient id="g-air" gradientUnits="userSpaceOnUse" x1="0" y1="190" x2="0" y2="410">
+      <stop offset="0" stop-color="#2BD3C6" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#2BD3C6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="g-air-s" gradientUnits="userSpaceOnUse" x1="0" y1="86" x2="0" y2="150">
+      <stop offset="0" stop-color="#2BD3C6" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#2BD3C6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <symbol id="i-bag" viewBox="0 0 24 24"><path d="M6 8h12l1 12H5L6 8Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 8V7a3 3 0 0 1 6 0v1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.5 6.5a4 4 0 0 0-5 5L4 17l3 3 5.5-5.5a4 4 0 0 0 5-5l-2.5 2.5-2.5-.5-.5-2.5 2.5-2.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.500-7-10V6l7-3Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="m9 12 2.200 2.200L15.500 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.500 4.500 4.500L19 7.500" fill="none" stroke="currentColor" stroke-width="2.200" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-whatsapp" viewBox="0 0 24 24"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.500 3h3l1.500 4-2 1.500a11 11 0 0 0 5.500 5.500L16 12l4 1.500v3a2.500 2.500 0 0 1-2.700 2.500C10.900 18.500 5.500 13.100 4 6.200A2.500 2.500 0 0 1 6.500 3Z" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linejoin="round"/></symbol>
+  <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5.500" fill="none" stroke="currentColor" stroke-width="1.800"/><circle cx="12" cy="12" r="4.200" fill="none" stroke="currentColor" stroke-width="1.800"/><circle cx="17.200" cy="6.800" r="1.200" fill="currentColor"/></symbol>
+  <symbol id="i-facebook" viewBox="0 0 24 24"><path fill="currentColor" d="M13.500 21v-7.500h2.600l.4-3h-3V8.600c0-.9.300-1.500 1.500-1.500h1.600V4.400c-.3 0-1.200-.1-2.300-.1-2.300 0-3.800 1.400-3.800 3.900v2.300H8v3h2.500V21h3Z"/></symbol>
+  <symbol id="i-snow" viewBox="0 0 24 24"><path d="M12 12L12.00 2.40M12.00 5.80L9.84 3.86M12.00 5.80L14.16 3.86M12 12L20.31 7.20M17.37 8.90L17.97 6.06M17.37 8.90L20.13 9.80M12 12L20.31 16.80M17.37 15.10L20.13 14.20M17.37 15.10L17.97 17.94M12 12L12.00 21.60M12.00 18.20L14.16 20.14M12.00 18.20L9.84 20.14M12 12L3.69 16.80M6.63 15.10L6.03 17.94M6.63 15.10L3.87 14.20M12 12L3.69 7.20M6.63 8.90L3.87 9.80M6.63 8.90L6.03 6.06" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.800"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.600 5.600 7 7M17 17l1.400 1.400M18.400 5.600 17 7M7 17l-1.400 1.400" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round"/></symbol>
+  <symbol id="i-fan" viewBox="0 0 24 24"><circle cx="12" cy="12" r="1.600" fill="currentColor"/><path d="M12 10.400C10.500 6 11 3.500 13.500 3.500c2 0 2.500 2.500-1.500 6.900Zm1.600 1.600c4.400-1.500 6.900-1 6.900 1.500 0 2-2.500 2.500-6.900-1.500ZM12 13.600c1.500 4.400 1 6.900-1.500 6.900-2 0-2.500-2.500 1.500-6.900Zm-1.600-1.600c-4.400 1.500-6.900 1-6.900-1.500 0-2 2.500-2.500 6.900 1.500Z" fill="none" stroke="currentColor" stroke-width="1.500" stroke-linejoin="round"/></symbol>
+  <symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 3.500c3.500 4 6 6.800 6 10a6 6 0 0 1-12 0c0-3.200 2.500-6 6-10Z" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linejoin="round"/></symbol>
+  <symbol id="i-power" viewBox="0 0 24 24"><path d="M12 3v8M7 6.500a7.500 7.500 0 1 0 10 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-timer" viewBox="0 0 24 24"><circle cx="12" cy="13" r="7.500" fill="none" stroke="currentColor" stroke-width="1.800"/><path d="M12 9v4l2.500 1.500M9.500 2.800h5" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2.500 5 13.500h6l-1 8 8-11h-6l1-8Z" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linejoin="round"/></symbol>
+  <symbol id="i-swing" viewBox="0 0 24 24"><path d="M4 8c3-3 6 3 8 0s5-3 8 0M4 14c3-3 6 3 8 0s5-3 8 0M4 20c3-3 6 3 8 0s5-3 8 0" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" transform="translate(0 -3)"/></symbol>
+  <symbol id="i-gauge" viewBox="0 0 24 24"><path d="M4 16a8 8 0 1 1 16 0" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round"/><path d="m12 16 4-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16" r="1.400" fill="currentColor"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.500A8 8 0 0 1 9.500 4a8 8 0 1 0 10.500 10.500Z" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linejoin="round"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24"><path d="m6 15 6-6 6 6" fill="none" stroke="currentColor" stroke-width="2.400" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.400" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-memory" viewBox="0 0 24 24"><path d="M6 4h12v16l-6-4-6 4V4Z" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linejoin="round"/></symbol>
+  <symbol id="i-mode" viewBox="0 0 24 24"><path d="M4 8h12M4 16h12" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round"/><path d="m14 5 3 3-3 3M10 13l-3 3 3 3" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-display" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="3" fill="none" stroke="currentColor" stroke-width="1.800"/><path d="M7 12h4M14 10v4" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-calc" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="3" fill="none" stroke="currentColor" stroke-width="1.800"/><path d="M8.500 7.500h7M9 12h.01M12 12h.01M15 12h.01M9 16h.01M12 16h.01M15 16h.01" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+
+  <!-- Unidade interna (usada nos cards de produto) -->
+  <symbol id="ac-unit" viewBox="0 0 240 150">
+    <rect x="4" y="4" width="232" height="78" rx="22" fill="url(#g-unit)" stroke="#CBDCE6" stroke-width="2"/>
+    <rect x="22" y="20" width="196" height="3" rx="1.500" fill="#C3D6E2"/>
+    <rect x="22" y="56" width="196" height="16" rx="8" fill="#CFE0EA"/>
+    <rect x="34" y="62" width="172" height="4" rx="2" fill="#B2C8D6"/>
+    <circle cx="206" cy="38" r="4.500" fill="#2BD3C6"/>
+    <rect x="22" y="32" width="46" height="10" rx="5" fill="#092E6E" opacity=".12"/>
+    <g fill="none" stroke="url(#g-air-s)" stroke-width="3.500" stroke-linecap="round">
+      <path d="M60 92c-8 16 8 26 0 44"/>
+      <path d="M120 92c-8 16 8 26 0 44"/>
+      <path d="M180 92c-8 16 8 26 0 44"/>
+    </g>
+  </symbol>
+</svg>
+
+<a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+<!-- ================= CABEÇALHO ================= -->
+<header class="site-header" id="topo">
+  <div class="container header-inner">
+    <a class="brand" href="#inicio" aria-label="VA Ar-Condicionados, ir para o início">
+      <img src="img/logo-curta.svg" alt="VA Ar Condicionados" width="92" height="56">
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+      <span class="nav-toggle-bar"></span>
+    </button>
+
+    <nav class="nav" id="menu" aria-label="Principal">
+      <ul class="nav-list">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#calculadora">Calculadora</a></li>
+        <li><a href="#controle">Controle</a></li>
+        <li><a href="#sobre">Quem somos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <a class="btn btn-wa nav-cta" href="https://wa.me/555180200593?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20VA%20Ar-Condicionados%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener noreferrer">
+        <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+        Pedir orçamento
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="container hero-grid">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Venda · Instalação · Manutenção</p>
+        <h1 id="hero-titulo">O conforto que sua casa merece, <span class="hl">instalado por quem entende.</span></h1>
+        <p class="lead">Ar-condicionado com atendimento direto, preço claro e instalação bem feita. Mais de 400 aparelhos instalados por ano, do orçamento ao pós-venda.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-lg" href="https://wa.me/555180200593?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20VA%20Ar-Condicionados%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener noreferrer">
+            <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+            Pedir orçamento no WhatsApp
+          </a>
+          <a class="btn btn-ghost btn-lg" href="#calculadora">
+            <svg class="icon" aria-hidden="true"><use href="#i-calc"/></svg>
+            Descobrir os BTUs ideais
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-art reveal" style="--d:.1s">
+        <svg viewBox="0 0 560 480" role="img" aria-label="Ilustração de um ar-condicionado split refrescando uma sala">
+          <rect width="560" height="480" rx="36" fill="url(#g-room)"/>
+          <circle cx="476" cy="96" r="124" fill="#2BD3C6" opacity=".12"/>
+          <circle cx="70" cy="430" r="150" fill="#00FDCE" opacity=".07"/>
+
+          <!-- janela -->
+          <rect x="392" y="236" width="120" height="150" rx="14" fill="#ffffff" opacity=".07"/>
+          <path d="M452 236v150M392 311h120" stroke="#ffffff" stroke-opacity=".18" stroke-width="3"/>
+
+          <!-- sofá -->
+          <rect x="84" y="318" width="250" height="62" rx="20" fill="#ffffff" opacity=".13"/>
+          <rect x="102" y="284" width="214" height="56" rx="20" fill="#ffffff" opacity=".1"/>
+          <rect x="74" y="330" width="40" height="64" rx="16" fill="#ffffff" opacity=".16"/>
+          <rect x="304" y="330" width="40" height="64" rx="16" fill="#ffffff" opacity=".16"/>
+          <rect x="96" y="392" width="12" height="18" rx="4" fill="#ffffff" opacity=".2"/>
+          <rect x="310" y="392" width="12" height="18" rx="4" fill="#ffffff" opacity=".2"/>
+
+          <!-- planta -->
+          <path d="M436 420h44l-6 40h-32l-6-40Z" fill="#ffffff" opacity=".16"/>
+          <path d="M458 420c-26-26-26-54-14-72 12 18 24 38 14 72Zm0 0c26-24 34-52 20-74-14 20-24 40-20 74Z" fill="#2BD3C6" opacity=".55"/>
+
+          <!-- piso -->
+          <rect x="30" y="424" width="500" height="3" rx="1.500" fill="#ffffff" opacity=".12"/>
+
+          <!-- ar-condicionado -->
+          <g transform="translate(60 56)">
+            <rect x="0" y="6" width="440" height="124" rx="32" fill="#041742" opacity=".28"/>
+            <rect x="0" y="0" width="440" height="124" rx="32" fill="url(#g-unit)"/>
+            <rect x="26" y="22" width="388" height="3" rx="1.500" fill="#C3D6E2"/>
+            <rect x="26" y="80" width="388" height="24" rx="12" fill="#CFE0EA"/>
+            <rect x="40" y="88" width="360" height="6" rx="3" fill="#B2C8D6"/>
+            <circle cx="400" cy="46" r="6" fill="#2BD3C6"/>
+            <circle cx="400" cy="46" r="11" fill="#2BD3C6" opacity=".25" class="led-pulse"/>
+            <text x="40" y="62" font-size="26" font-weight="800" fill="#092E6E" font-family="Plus Jakarta Sans, Arial, sans-serif">24°C</text>
+          </g>
+
+          <!-- fluxo de ar -->
+          <g fill="none" stroke="url(#g-air)" stroke-width="5" stroke-linecap="round" stroke-dasharray="14 12">
+            <path class="air a1" d="M130 192c-22 56 30 96-2 156"/>
+            <path class="air a2" d="M200 192c-22 56 30 96-2 156"/>
+            <path class="air a3" d="M270 192c-22 56 30 96-2 156"/>
+            <path class="air a4" d="M340 192c-22 56 30 96-2 156"/>
+            <path class="air a5" d="M410 192c-22 56 30 96-2 156"/>
+          </g>
+
+          <!-- partículas -->
+          <g fill="#ffffff">
+            <circle class="spark s1" cx="160" cy="250" r="3.500" opacity=".7"/>
+            <circle class="spark s2" cx="300" cy="270" r="2.500" opacity=".6"/>
+            <circle class="spark s3" cx="380" cy="230" r="3" opacity=".6"/>
+            <circle class="spark s4" cx="230" cy="300" r="2.500" opacity=".5"/>
+          </g>
+        </svg>
+
+        <div class="chip chip-a">
+          <svg class="icon" aria-hidden="true"><use href="#i-snow"/></svg>
+          Ambiente na temperatura ideal
+        </div>
+        <div class="chip chip-b">
+          <svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>
+          Instalação profissional
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <ul class="stats reveal" aria-label="Números da VA Ar-Condicionados">
+        <li><strong>+12 anos</strong><span>levando conforto para dentro das casas</span></li>
+        <li><strong>+400</strong><span>ar-condicionados instalados por ano</span></li>
+        <li><strong>Equipe própria</strong><span>atendimento direto, do orçamento à instalação</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= SERVIÇOS ================= -->
+  <section class="section" id="servicos" aria-labelledby="servicos-titulo">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">Serviços</p>
+        <h2 id="servicos-titulo">Tudo o que você precisa, em um só lugar</h2>
+        <p class="lead">Da escolha do aparelho à manutenção anual, cuidamos de cada etapa para você só aproveitar o conforto.</p>
+      </header>
+
+      <div class="cards three">
+        <article class="card service reveal">
+          <span class="icon-badge"><svg class="icon" aria-hidden="true"><use href="#i-bag"/></svg></span>
+          <h3>Venda</h3>
+          <p>Aparelhos split de qualidade nas potências mais procuradas, com orientação para escolher o modelo certo para o seu ambiente.</p>
+          <a class="link-arrow" href="#produtos">Ver produtos <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </article>
+        <article class="card service reveal" style="--d:.08s">
+          <span class="icon-badge"><svg class="icon" aria-hidden="true"><use href="#i-wrench"/></svg></span>
+          <h3>Instalação</h3>
+          <p>Instalação cuidadosa, com acabamento limpo e teste completo. Você pode comprar o aparelho conosco ou contratar somente a instalação.</p>
+          <a class="link-arrow" href="#contato">Agendar instalação <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </article>
+        <article class="card service reveal" style="--d:.16s">
+          <span class="icon-badge"><svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg></span>
+          <h3>Manutenção</h3>
+          <p>Limpeza e revisão para o aparelho render mais, gastar menos energia e durar muito mais anos, com ar sempre limpo para a sua família.</p>
+          <a class="link-arrow" href="#contato">Pedir manutenção <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PRODUTOS ================= -->
+  <section class="section section-alt" id="produtos" aria-labelledby="produtos-titulo">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">Produtos e valores</p>
+        <h2 id="produtos-titulo">Ar-condicionado com instalação incluída</h2>
+        <p class="lead">Preço claro, sem surpresa na hora de instalar. Não sabe qual escolher? Use a <a href="#calculadora">calculadora de BTUs</a> logo abaixo.</p>
+      </header>
+
+      <div class="cards four">
+        <article class="card product reveal" data-btu="9000" data-price="R$ 1.750,00">
+          <div class="product-visual">
+            <span class="badge">9.000 BTUs</span>
+            <svg viewBox="0 0 240 150" aria-hidden="true"><use href="#ac-unit"/></svg>
+          </div>
+          <div class="product-body">
+            <h3>Ar-condicionado 9.000 BTUs</h3>
+            <p class="muted">Perfeito para quartos e escritórios de tamanho médio.</p>
+            <p class="price"><small class="from">com instalação incluída</small><span>R$</span> 1.750<small>,00</small></p>
+            <ul class="checks">
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Instalação pela nossa equipe</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Orçamento sem compromisso</li>
+            </ul>
+            <a class="btn btn-dark btn-block" href="https://wa.me/555180200593?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20ar-condicionado%209.000%20BTUs%20com%20instala%C3%A7%C3%A3o." target="_blank" rel="noopener noreferrer">
+              <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg> Quero esse modelo
+            </a>
+          </div>
+        </article>
+
+        <article class="card product reveal" data-btu="12000" data-price="R$ 1.850,00" style="--d:0.08s">
+          <div class="product-visual">
+            <span class="badge">12.000 BTUs</span>
+            <svg viewBox="0 0 240 150" aria-hidden="true"><use href="#ac-unit"/></svg>
+          </div>
+          <div class="product-body">
+            <h3>Ar-condicionado 12.000 BTUs</h3>
+            <p class="muted">Ideal para ambientes maiores, como salas e quartos amplos.</p>
+            <p class="price"><small class="from">com instalação incluída</small><span>R$</span> 1.850<small>,00</small></p>
+            <ul class="checks">
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Instalação pela nossa equipe</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Orçamento sem compromisso</li>
+            </ul>
+            <a class="btn btn-dark btn-block" href="https://wa.me/555180200593?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20ar-condicionado%2012.000%20BTUs%20com%20instala%C3%A7%C3%A3o." target="_blank" rel="noopener noreferrer">
+              <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg> Quero esse modelo
+            </a>
+          </div>
+        </article>
+
+        <article class="card product reveal" data-btu="18000" data-price="R$ 3.250,00" style="--d:.16s">
+          <div class="product-visual">
+            <span class="badge">18.000 BTUs</span>
+            <svg viewBox="0 0 240 150" aria-hidden="true"><use href="#ac-unit"/></svg>
+          </div>
+          <div class="product-body">
+            <h3>Ar-condicionado 18.000 BTUs</h3>
+            <p class="muted">Para ambientes grandes, como salas amplas.</p>
+            <p class="price"><small class="from">com instalação incluída</small><span>R$</span> 3.250<small>,00</small></p>
+            <ul class="checks">
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Instalação pela nossa equipe</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Orçamento sem compromisso</li>
+            </ul>
+            <a class="btn btn-dark btn-block" href="https://wa.me/555180200593?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20ar-condicionado%2018.000%20BTUs%20com%20instala%C3%A7%C3%A3o." target="_blank" rel="noopener noreferrer">
+              <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg> Quero esse modelo
+            </a>
+          </div>
+        </article>
+
+        <article class="card product product-service reveal" style="--d:.24s">
+          <div class="product-visual alt">
+            <span class="badge badge-light">Só a instalação</span>
+            <svg class="big-icon" aria-hidden="true"><use href="#i-wrench"/></svg>
+          </div>
+          <div class="product-body">
+            <h3>Instalação e outros serviços</h3>
+            <p class="muted">Já tem o aparelho? Nós instalamos, com acabamento limpo e teste completo.</p>
+            <p class="price"><small class="from">a partir de</small><span>R$</span> 300<small>,00</small><em>por ar-condicionado</em></p>
+            <ul class="checks">
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Também fazemos manutenção</li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Consulte outros serviços</li>
+            </ul>
+            <a class="btn btn-dark btn-block" href="https://wa.me/555180200593?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento%20de%20instala%C3%A7%C3%A3o%20de%20ar-condicionado." target="_blank" rel="noopener noreferrer">
+              <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg> Pedir orçamento
+            </a>
+          </div>
+        </article>
+      </div>
+      <p class="fineprint reveal">Valores sujeitos a alteração. Confirme as condições e a disponibilidade pelo WhatsApp.</p>
+    </div>
+  </section>
+
+  <!-- ================= CALCULADORA ================= -->
+  <section class="section section-dark" id="calculadora" aria-labelledby="calc-titulo">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">Calculadora de BTUs</p>
+        <h2 id="calc-titulo">Qual a potência ideal para o seu ambiente?</h2>
+        <p class="lead">Escolher errado faz o aparelho trabalhar demais e gastar mais energia, ou ficar fraco e não refrescar. Informe os dados e veja a recomendação.</p>
+      </header>
+
+      <div class="calc reveal">
+        <form class="calc-form" id="calc-form" novalidate>
+          <div class="field">
+            <label for="area">Área do ambiente</label>
+            <div class="input-wrap">
+              <input id="area" name="area" type="number" inputmode="decimal" min="1" max="300" step="0.5" value="15" required>
+              <span class="suffix">m²</span>
+            </div>
+          </div>
+
+          <div class="field">
+            <span class="label" id="lbl-pessoas">Pessoas no ambiente</span>
+            <div class="stepper" role="group" aria-labelledby="lbl-pessoas">
+              <button type="button" class="step" data-step="-1" data-target="pessoas" aria-label="Diminuir pessoas">−</button>
+              <output id="pessoas" data-min="1" data-max="30">2</output>
+              <button type="button" class="step" data-step="1" data-target="pessoas" aria-label="Aumentar pessoas">+</button>
+            </div>
+          </div>
+
+          <div class="field">
+            <span class="label" id="lbl-equip">Aparelhos que emitem calor <span class="hint">TV, computador, geladeira...</span></span>
+            <div class="stepper" role="group" aria-labelledby="lbl-equip">
+              <button type="button" class="step" data-step="-1" data-target="equip" aria-label="Diminuir aparelhos">−</button>
+              <output id="equip" data-min="0" data-max="20">0</output>
+              <button type="button" class="step" data-step="1" data-target="equip" aria-label="Aumentar aparelhos">+</button>
+            </div>
+          </div>
+
+          <fieldset class="field segmented">
+            <legend>O ambiente recebe sol?</legend>
+            <label><input type="radio" name="sol" value="1" checked><span>Pouco</span></label>
+            <label><input type="radio" name="sol" value="1.1"><span>Algumas horas</span></label>
+            <label><input type="radio" name="sol" value="1.2"><span>Muito sol</span></label>
+          </fieldset>
+        </form>
+
+        <div class="calc-result" aria-live="polite" aria-atomic="true">
+          <p class="result-label">Você precisa de cerca de</p>
+          <p class="result-num"><strong id="res-btu">9.000</strong> <span>BTUs</span></p>
+          <p class="result-model">Aparelho recomendado: <strong id="res-model">9.000 BTUs</strong></p>
+          <p class="result-note" id="res-note"></p>
+          <a class="btn btn-primary btn-block" id="res-cta" href="https://wa.me/555180200593" target="_blank" rel="noopener noreferrer">
+            <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg> Pedir orçamento desse modelo
+          </a>
+          <p class="fineprint-dark">Estimativa baseada em 600 BTUs por m² para até 2 pessoas, mais 600 BTUs por pessoa ou aparelho que emita calor. Fale com a nossa equipe para confirmar.</p>
+        </div>
+      </div>
+
+      <div class="tips">
+        <h3 class="reveal">O que mais influencia no rendimento</h3>
+        <ul class="tip-list">
+          <li class="reveal"><span class="tip-ico"><svg class="icon" aria-hidden="true"><use href="#i-sun"/></svg></span><div><strong>Janelas e sol</strong><p>Sol batendo direto aquece o ambiente. Persianas e películas ajudam.</p></div></li>
+          <li class="reveal" style="--d:.06s"><span class="tip-ico"><svg class="icon" aria-hidden="true"><use href="#i-display"/></svg></span><div><strong>Cortinas</strong><p>Cortinas claras e fechadas no horário de sol reduzem o calor.</p></div></li>
+          <li class="reveal" style="--d:.12s"><span class="tip-ico"><svg class="icon" aria-hidden="true"><use href="#i-snow"/></svg></span><div><strong>Região</strong><p>Em regiões mais quentes, vale subir uma faixa de potência.</p></div></li>
+          <li class="reveal" style="--d:.18s"><span class="tip-ico"><svg class="icon" aria-hidden="true"><use href="#i-bolt"/></svg></span><div><strong>Lâmpadas e equipamentos</strong><p>Tudo o que liga na tomada gera calor e entra na conta.</p></div></li>
+        </ul>
+        <p class="tips-foot reveal">A melhor forma de escolher é falar direto com os instaladores. <a href="#contato">Chame a gente!</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTROLE ================= -->
+  <section class="section" id="controle" aria-labelledby="controle-titulo">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">Guia do controle remoto</p>
+        <h2 id="controle-titulo">Conheça todas as funções do controle</h2>
+        <p class="lead">Toque nos botões do controle para ver o que cada um faz e testar como o visor reage.</p>
+      </header>
+
+      <div class="guide reveal">
+        <div class="remote-wrap">
+          <div class="remote" id="remote" aria-label="Controle remoto interativo">
+            <div class="remote-screen" id="screen" data-fn="visor" role="button" tabindex="0" aria-label="Visor do controle">
+              <div class="screen-top">
+                <span class="screen-mode" id="s-mode" data-fn="icone-modo"><svg class="icon" aria-hidden="true"><use href="#i-snow"/></svg></span>
+                <span class="screen-fan" id="s-fan" data-fn="fan"><svg class="icon" aria-hidden="true"><use href="#i-fan"/></svg></span>
+              </div>
+              <div class="screen-temp"><strong id="s-temp">24</strong><span>°C</span></div>
+              <div class="screen-flags" id="s-flags"></div>
+            </div>
+
+            <div class="remote-grid">
+              <button type="button" class="rbtn rbtn-power" data-fn="ligar" aria-label="Ligar e desligar"><svg class="icon" aria-hidden="true"><use href="#i-power"/></svg><span>Ligar</span></button>
+              <button type="button" class="rbtn" data-fn="funcao"><svg class="icon" aria-hidden="true"><use href="#i-mode"/></svg><span>Função</span></button>
+              <button type="button" class="rbtn" data-fn="memoria"><svg class="icon" aria-hidden="true"><use href="#i-memory"/></svg><span>Memória</span></button>
+
+              <button type="button" class="rbtn" data-fn="setas" data-dir="1" aria-label="Aumentar temperatura"><svg class="icon" aria-hidden="true"><use href="#i-up"/></svg><span>Temp +</span></button>
+              <button type="button" class="rbtn" data-fn="timer"><svg class="icon" aria-hidden="true"><use href="#i-timer"/></svg><span>Timer</span></button>
+              <button type="button" class="rbtn" data-fn="turbo"><svg class="icon" aria-hidden="true"><use href="#i-bolt"/></svg><span>Turbo</span></button>
+
+              <button type="button" class="rbtn" data-fn="setas" data-dir="-1" aria-label="Diminuir temperatura"><svg class="icon" aria-hidden="true"><use href="#i-down"/></svg><span>Temp −</span></button>
+              <button type="button" class="rbtn" data-fn="oscilar"><svg class="icon" aria-hidden="true"><use href="#i-swing"/></svg><span>Oscilar</span></button>
+              <button type="button" class="rbtn" data-fn="velocidade"><svg class="icon" aria-hidden="true"><use href="#i-gauge"/></svg><span>Velocidade</span></button>
+
+              <button type="button" class="rbtn rbtn-wide" data-fn="sonobom"><svg class="icon" aria-hidden="true"><use href="#i-moon"/></svg><span>Sono Bom</span></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="guide-panel" id="guide-panel" aria-live="polite" aria-atomic="true">
+          <p class="guide-kicker">Selecionado</p>
+          <h3 id="g-title">Ligar / Desligar</h3>
+          <p id="g-desc" class="guide-desc"></p>
+          <p class="guide-tip"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span id="g-tip"></span></p>
+          <p class="guide-foot">Os controles podem variar entre aparelhos. Em caso de dúvida, é só chamar a gente.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SOBRE ================= -->
+  <section class="section section-alt" id="sobre" aria-labelledby="sobre-titulo">
+    <div class="container about">
+      <div class="about-copy reveal">
+        <p class="eyebrow">Quem somos</p>
+        <h2 id="sobre-titulo">Uma empresa de família, feita de confiança</h2>
+        <p>A VA Ar-Condicionados foi criada por <strong>Adão Sérgio Viana</strong>, que há mais de 12 anos muda a vida das pessoas instalando conforto dentro das casas.</p>
+        <p>Desde que começou nesse ramo, Adão mostra grande competência na área, além de ser um ótimo vendedor, simpático e muito bom de receber em casa, seja para a prestação de serviços ou só para a venda dos produtos.</p>
+        <p>Com mais de 400 aparelhos instalados por ano, a empresa é um sucesso mesmo com uma equipe pequena, formada por Adão e sua esposa, Andrea. É esse atendimento próximo que faz a diferença.</p>
+      </div>
+
+      <div class="about-card reveal" style="--d:.1s">
+        <svg class="quote-mark" aria-hidden="true" viewBox="0 0 48 36"><path fill="currentColor" d="M0 36V19C0 8 6 1 18 0v6c-6 1-9 5-9 9h9v21H0Zm27 0V19C27 8 33 1 45 0v6c-6 1-9 5-9 9h9v21H27Z"/></svg>
+        <blockquote>Confiança e competência são o lema do nosso trabalho.</blockquote>
+        <div class="about-sign">
+          <span class="avatar" aria-hidden="true">VA</span>
+          <div><strong>Adão e Andrea</strong><span>Equipe VA Ar-Condicionados</span></div>
+        </div>
+        <ul class="about-points">
+          <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Atendimento direto e transparente</li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Instalação feita com capricho</li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Cuidado do orçamento ao pós-venda</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTATO ================= -->
+  <section class="section" id="contato" aria-labelledby="contato-titulo">
+    <div class="container">
+      <div class="cta-box reveal">
+        <div class="cta-copy">
+          <p class="eyebrow eyebrow-light">Contato</p>
+          <h2 id="contato-titulo">Vamos instalar conforto na sua casa?</h2>
+          <p>Chame no WhatsApp, ligue ou fale com a gente pelo Instagram. Respondemos com um orçamento sem compromisso.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-lg" href="https://wa.me/555180200593?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20VA%20Ar-Condicionados%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener noreferrer">
+              <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg> Chamar no WhatsApp
+            </a>
+            <a class="btn btn-outline-light btn-lg" href="tel:+555180200593">
+              <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg> (51) 8020-0593
+            </a>
+          </div>
+        </div>
+        <ul class="contact-list">
+          <li>
+            <a href="https://wa.me/555180200593" target="_blank" rel="noopener noreferrer">
+              <span class="c-ico"><svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg></span>
+              <span><small>WhatsApp</small>(51) 8020-0593</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/va.ar.condicionado.2026/" target="_blank" rel="noopener noreferrer">
+              <span class="c-ico"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg></span>
+              <span><small>Instagram</small>@va.ar.condicionado.2026</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/VA-Ar-Condicionado-160189189072936" target="_blank" rel="noopener noreferrer">
+              <span class="c-ico"><svg class="icon" aria-hidden="true"><use href="#i-facebook"/></svg></span>
+              <span><small>Facebook</small>VA Ar-Condicionado</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ================= RODAPÉ ================= -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="img/logo-escuro.svg" alt="VA Ar Condicionados - Venda, instalação e manutenção" width="220" height="150">
+    </div>
+    <nav aria-label="Rodapé">
+      <h2 class="footer-title">Navegue</h2>
+      <ul>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#calculadora">Calculadora de BTUs</a></li>
+        <li><a href="#controle">Guia do controle</a></li>
+        <li><a href="#sobre">Quem somos</a></li>
+      </ul>
+    </nav>
+    <div>
+      <h2 class="footer-title">Fale com a gente</h2>
+      <ul>
+        <li><a href="https://wa.me/555180200593" target="_blank" rel="noopener noreferrer">WhatsApp (51) 8020-0593</a></li>
+        <li><a href="tel:+555180200593">Ligar agora</a></li>
+        <li><a href="https://www.instagram.com/va.ar.condicionado.2026/" target="_blank" rel="noopener noreferrer">Instagram @va.ar.condicionado.2026</a></li>
+        <li><a href="https://www.facebook.com/VA-Ar-Condicionado-160189189072936" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© <span id="ano">2026</span> VA Ar-Condicionados. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<!-- Botão flutuante do WhatsApp -->
+<a class="wa-float" href="https://wa.me/555180200593?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20VA%20Ar-Condicionados%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp">
+  <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+  <span class="wa-label">Fale no WhatsApp</span>
+</a>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
